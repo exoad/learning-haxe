@@ -6,9 +6,30 @@ import java.lang.System;
 import java.lang.Double;
 import java.lang.Character;
 
+/**
+ * This class enables the user to run using a Java Based Input system.
+ * 
+ * The user first inputs a number `st` which can be in the range of a 
+ * 64-bit Double 
+ * 
+ * Then a second number `st2` which can be in the range of a 64-bit
+ * Double
+ * 
+ * The third is a sign `sign` which can be: `x`,`+`,`*`,`-`,`/`
+ * 
+ * **NOTE** for dividing, there is a check for dividing by zero 
+ * to ensure that the user does not divide by zero and will print
+ * ```
+ * NaN
+ * ```
+ * when the second number `st2 == 0`
+ * 
+ * <html>
+ * </html>
+ */
+
 class Main {
 	static function main() {
-		// var str:String;
 		var sc:Scanner = new Scanner(System._in);
 		while (true || sc.hasNext()) {
 			Sys.println("===============");
