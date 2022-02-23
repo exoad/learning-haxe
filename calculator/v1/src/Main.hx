@@ -1,10 +1,7 @@
 package src;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.lang.System;
-import java.lang.Double;
-import java.lang.Character;
 
 /**
  * This class enables the user to run using a Java Based Input system.
