@@ -1,3 +1,4 @@
+
 package src;
 
 import java.util.Scanner;
@@ -45,16 +46,16 @@ class Main {
 				} else if (sign == "*" || sign == "x") {
 					Sys.println(st * st2);
 				} else if (sign == "/") {
-          if(st2 == 0)
-            Sys.println("NaN");
-          else 
-					  Sys.println(st / st2);
+					if(st2 == 0)
+            			Sys.println("NaN");
+          			else 
+						Sys.println(st / st2);
 				} else {
 					Sys.println("Unrecognized");
 				}
 			} catch (e:java.lang.Exception) {
-        continue;
-      }
+        			continue;
+      			}
 		}
 		sc.close();
 	}
