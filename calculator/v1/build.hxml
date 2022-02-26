@@ -1,3 +1,4 @@
 -cp src
 -main src.Main
 -java bin
+-lib hxjava
